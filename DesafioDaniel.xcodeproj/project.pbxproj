@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AE85671CAF812200D7E563 /* MusicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AE85661CAF812200D7E563 /* MusicTableViewCell.m */; };
+		18AE856B1CAF860100D7E563 /* Music-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AE856A1CAF860100D7E563 /* Music-4.jpg */; };
+		18AE856E1CAF8C1700D7E563 /* contat.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AE856C1CAF8C1700D7E563 /* contat.png */; };
+		18AE856F1CAF8C1700D7E563 /* contat@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AE856D1CAF8C1700D7E563 /* contat@x2.png */; };
+		18AE85721CAF8EAE00D7E563 /* GestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AE85711CAF8EAE00D7E563 /* GestureViewController.m */; };
+		18CA91C51CAE1C6100035D3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA91C41CAE1C6100035D3E /* main.m */; };
+		18CA91C81CAE1C6100035D3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA91C71CAE1C6100035D3E /* AppDelegate.m */; };
+		18CA91CB1CAE1C6100035D3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA91CA1CAE1C6100035D3E /* ViewController.m */; };
+		18CA91CE1CAE1C6100035D3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CA91CC1CAE1C6100035D3E /* Main.storyboard */; };
+		18CA91D11CAE1C6100035D3E /* DesafioDaniel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18CA91CF1CAE1C6100035D3E /* DesafioDaniel.xcdatamodeld */; };
+		18CA91D31CAE1C6100035D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CA91D21CAE1C6100035D3E /* Assets.xcassets */; };
+		18CA91D61CAE1C6100035D3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CA91D41CAE1C6100035D3E /* LaunchScreen.storyboard */; };
+		729EA54346C5A3327154E652 /* libPods-DesafioDaniel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C934F9BFC117FD2DD20267D3 /* libPods-DesafioDaniel.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18AE85651CAF812200D7E563 /* MusicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableViewCell.h; sourceTree = "<group>"; };
+		18AE85661CAF812200D7E563 /* MusicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableViewCell.m; sourceTree = "<group>"; };
+		18AE856A1CAF860100D7E563 /* Music-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Music-4.jpg"; sourceTree = "<group>"; };
+		18AE856C1CAF8C1700D7E563 /* contat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contat.png; sourceTree = "<group>"; };
+		18AE856D1CAF8C1700D7E563 /* contat@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contat@x2.png"; sourceTree = "<group>"; };
+		18AE85701CAF8EAE00D7E563 /* GestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureViewController.h; sourceTree = "<group>"; };
+		18AE85711CAF8EAE00D7E563 /* GestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureViewController.m; sourceTree = "<group>"; };
+		18CA91C01CAE1C6100035D3E /* DesafioDaniel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioDaniel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CA91C41CAE1C6100035D3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CA91C61CAE1C6100035D3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18CA91C71CAE1C6100035D3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18CA91C91CAE1C6100035D3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18CA91CA1CAE1C6100035D3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18CA91CD1CAE1C6100035D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CA91D01CAE1C6100035D3E /* DesafioDaniel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DesafioDaniel.xcdatamodel; sourceTree = "<group>"; };
+		18CA91D21CAE1C6100035D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CA91D51CAE1C6100035D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18CA91D71CAE1C6100035D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28A0D7509BE639BAFBADE944 /* Pods-DesafioDaniel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioDaniel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesafioDaniel/Pods-DesafioDaniel.debug.xcconfig"; sourceTree = "<group>"; };
+		B9BB4C37BF245596DE402520 /* Pods-DesafioDaniel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioDaniel.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesafioDaniel/Pods-DesafioDaniel.release.xcconfig"; sourceTree = "<group>"; };
+		C934F9BFC117FD2DD20267D3 /* libPods-DesafioDaniel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DesafioDaniel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CA91BD1CAE1C6100035D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729EA54346C5A3327154E652 /* libPods-DesafioDaniel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18AE85641CAF80D800D7E563 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18AE85651CAF812200D7E563 /* MusicTableViewCell.h */,
+				18AE85661CAF812200D7E563 /* MusicTableViewCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		18AE85681CAF812D00D7E563 /* controllerView */ = {
+			isa = PBXGroup;
+			children = (
+				18CA91CC1CAE1C6100035D3E /* Main.storyboard */,
+				18CA91C91CAE1C6100035D3E /* ViewController.h */,
+				18CA91CA1CAE1C6100035D3E /* ViewController.m */,
+				18AE85701CAF8EAE00D7E563 /* GestureViewController.h */,
+				18AE85711CAF8EAE00D7E563 /* GestureViewController.m */,
+			);
+			name = controllerView;
+			sourceTree = "<group>";
+		};
+		18AE85691CAF85F300D7E563 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				18AE856C1CAF8C1700D7E563 /* contat.png */,
+				18AE856D1CAF8C1700D7E563 /* contat@x2.png */,
+				18AE856A1CAF860100D7E563 /* Music-4.jpg */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		18CA91B71CAE1C6100035D3E = {
+			isa = PBXGroup;
+			children = (
+				18CA91C21CAE1C6100035D3E /* DesafioDaniel */,
+				18CA91C11CAE1C6100035D3E /* Products */,
+				E783FFFA45C26F21CE711B17 /* Pods */,
+				B93CF2568CBF36BB1CDD6087 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18CA91C11CAE1C6100035D3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CA91C01CAE1C6100035D3E /* DesafioDaniel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CA91C21CAE1C6100035D3E /* DesafioDaniel */ = {
+			isa = PBXGroup;
+			children = (
+				18AE85691CAF85F300D7E563 /* image */,
+				18AE85681CAF812D00D7E563 /* controllerView */,
+				18AE85641CAF80D800D7E563 /* view */,
+				18CA91C61CAE1C6100035D3E /* AppDelegate.h */,
+				18CA91C71CAE1C6100035D3E /* AppDelegate.m */,
+				18CA91D21CAE1C6100035D3E /* Assets.xcassets */,
+				18CA91D41CAE1C6100035D3E /* LaunchScreen.storyboard */,
+				18CA91D71CAE1C6100035D3E /* Info.plist */,
+				18CA91CF1CAE1C6100035D3E /* DesafioDaniel.xcdatamodeld */,
+				18CA91C31CAE1C6100035D3E /* Supporting Files */,
+			);
+			path = DesafioDaniel;
+			sourceTree = "<group>";
+		};
+		18CA91C31CAE1C6100035D3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CA91C41CAE1C6100035D3E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B93CF2568CBF36BB1CDD6087 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C934F9BFC117FD2DD20267D3 /* libPods-DesafioDaniel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E783FFFA45C26F21CE711B17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28A0D7509BE639BAFBADE944 /* Pods-DesafioDaniel.debug.xcconfig */,
+				B9BB4C37BF245596DE402520 /* Pods-DesafioDaniel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CA91BF1CAE1C6100035D3E /* DesafioDaniel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CA91DA1CAE1C6100035D3E /* Build configuration list for PBXNativeTarget "DesafioDaniel" */;
+			buildPhases = (
+				93302DDC6F1814CA5287653D /* Check Pods Manifest.lock */,
+				18CA91BC1CAE1C6100035D3E /* Sources */,
+				18CA91BD1CAE1C6100035D3E /* Frameworks */,
+				18CA91BE1CAE1C6100035D3E /* Resources */,
+				22398C5E3ED85AFBAEC69A51 /* Embed Pods Frameworks */,
+				1F25A8699B3EA448974EF9D0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioDaniel;
+			productName = DesafioDaniel;
+			productReference = 18CA91C01CAE1C6100035D3E /* DesafioDaniel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CA91B81CAE1C6100035D3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Marcos;
+				TargetAttributes = {
+					18CA91BF1CAE1C6100035D3E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = V2686JM7D9;
+					};
+				};
+			};
+			buildConfigurationList = 18CA91BB1CAE1C6100035D3E /* Build configuration list for PBXProject "DesafioDaniel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CA91B71CAE1C6100035D3E;
+			productRefGroup = 18CA91C11CAE1C6100035D3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CA91BF1CAE1C6100035D3E /* DesafioDaniel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CA91BE1CAE1C6100035D3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AE856B1CAF860100D7E563 /* Music-4.jpg in Resources */,
+				18CA91D61CAE1C6100035D3E /* LaunchScreen.storyboard in Resources */,
+				18CA91D31CAE1C6100035D3E /* Assets.xcassets in Resources */,
+				18CA91CE1CAE1C6100035D3E /* Main.storyboard in Resources */,
+				18AE856E1CAF8C1700D7E563 /* contat.png in Resources */,
+				18AE856F1CAF8C1700D7E563 /* contat@x2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F25A8699B3EA448974EF9D0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesafioDaniel/Pods-DesafioDaniel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22398C5E3ED85AFBAEC69A51 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesafioDaniel/Pods-DesafioDaniel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93302DDC6F1814CA5287653D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CA91BC1CAE1C6100035D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AE85721CAF8EAE00D7E563 /* GestureViewController.m in Sources */,
+				18CA91CB1CAE1C6100035D3E /* ViewController.m in Sources */,
+				18AE85671CAF812200D7E563 /* MusicTableViewCell.m in Sources */,
+				18CA91C81CAE1C6100035D3E /* AppDelegate.m in Sources */,
+				18CA91D11CAE1C6100035D3E /* DesafioDaniel.xcdatamodeld in Sources */,
+				18CA91C51CAE1C6100035D3E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18CA91CC1CAE1C6100035D3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CA91CD1CAE1C6100035D3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CA91D41CAE1C6100035D3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CA91D51CAE1C6100035D3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CA91D81CAE1C6100035D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18CA91D91CAE1C6100035D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CA91DB1CAE1C6100035D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A0D7509BE639BAFBADE944 /* Pods-DesafioDaniel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DesafioDaniel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mfelipesp.DesafioDaniel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18CA91DC1CAE1C6100035D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9BB4C37BF245596DE402520 /* Pods-DesafioDaniel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DesafioDaniel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mfelipesp.DesafioDaniel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CA91BB1CAE1C6100035D3E /* Build configuration list for PBXProject "DesafioDaniel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CA91D81CAE1C6100035D3E /* Debug */,
+				18CA91D91CAE1C6100035D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CA91DA1CAE1C6100035D3E /* Build configuration list for PBXNativeTarget "DesafioDaniel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CA91DB1CAE1C6100035D3E /* Debug */,
+				18CA91DC1CAE1C6100035D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18CA91CF1CAE1C6100035D3E /* DesafioDaniel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18CA91D01CAE1C6100035D3E /* DesafioDaniel.xcdatamodel */,
+			);
+			currentVersion = 18CA91D01CAE1C6100035D3E /* DesafioDaniel.xcdatamodel */;
+			path = DesafioDaniel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18CA91B81CAE1C6100035D3E /* Project object */;
+}
